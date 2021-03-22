@@ -1,0 +1,258 @@
+*{
+	padding: 0px;
+	margin: 0px; 
+	border: 0px solid;
+}
+td{
+	padding: 20px 15px; 
+}
+.navbar-brand{
+	font-size: 16px;
+	color: black;
+}
+#button1{
+	background: blue;
+	color: white;
+	font-size: 18px;
+	font-family: arial;
+	padding: 8px 7px;
+	border-radius: 15px;
+	border: 1px white; 
+}
+.libord{
+	opacity: 0.7;
+	padding-left: 13px;
+}
+.libord:hover{
+	transition: border-bottom 0.2s;
+	border-bottom: 2px solid blue;
+}
+.rasm{
+	background-image: url('https://yootheme.com/cache/images/hero-teaser-2ab15e51.webp');
+	background-size: 100% 100%;
+	width: 96%;
+	height: 80%;
+	margin-left: 2%;
+	/*margin-top: 0%;*/
+	/*position: absolute;*/
+	text-align: center;
+
+}
+#categories{
+	/*border: 1px solid;*/
+}
+.categor{
+	/*border: 1px solid;*/
+	list-style: none;
+	padding: 3px;
+	/*font-size: 12px;*/
+	
+}
+.adress{
+	color: black;
+	opacity: 0.5;
+	margin-left: 10%;
+	font-size: 15px;
+}
+.categor:hover{
+	opacity: 1;
+}
+.bos{
+	border-bottom: 1px solid;
+	border: 0px solid;
+	background: white;
+	box-shadow: 0px 10px 15px #DBDBDB;
+	padding: 5px;
+	border-radius: 15px;
+}
+.bos:hover{
+	border-bottom: 0.5px solid blue;
+	/*box-shadow: 5px 5px 5px blue;*/
+	opacity: 0.6;
+	color: blue;
+
+}
+.foto{
+	width: 100%; height: 320px; z-index: 10; opacity: 1;
+}
+
+.fototext{
+	width: 100%; height: 80px;;
+}
+.foot1{
+	font-size: 16px; font-family: Microsoft JhengHei Light; font-weight: 600;
+}
+.foot2{
+	font-size: 13px; opacity: 0.6;
+}
+.small{
+	font-size: 13px;
+	opacity: 0.6;
+	font-family: Microsoft JhengHei Light;
+}
+.large{
+	font-size: 34px;
+	font-weight: 550;
+	padding: 10px 0px 10px 0px;
+	font-family: Microsoft JhengHei Light;
+}
+.but1{
+	font-size: 16px;
+	text-align: center;
+	font-family: Bahnschrift Light;
+	border-radius: 15px;
+	padding: 8px 15px;
+	background-color: #0000ED;
+	font-weight: 600;
+	color: white;
+	border: 0px solid;
+	width: 120px;
+
+}
+.but1:hover{
+	box-shadow: -5px 5px 5px #DCDCDC, 5px 5px 5px #DCDCDC;
+	width: 130px;
+	font-size: 18px;
+	opacity: 1;
+	padding: 10px;
+}
+.but2{
+	font-size: 16px;
+	text-align: center;
+	font-family: Bahnschrift Light;
+	border-radius: 15px;
+	padding: 8px 15px;
+	background-color: white;
+	font-weight: 600;
+	color: black;
+	border: 0px solid;
+	width: 120px;
+	opacity: 1;
+	border: 0.2px solid blue;
+}
+.but2:hover{
+	box-shadow: -5px 5px 5px white, 5px 5px 5px white;
+	width: 130px;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.foto{
+	z-index: 5;
+	position: relative;
+  }
+  .photohover{
+	  transition: transform 1s;
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index: 7;
+	width: 100%;
+	position: relative;
+	height: 100%;
+	display: none;
+  }
+
+  .foto:hover .photohover{
+	display: block;
+  }
+  .photohover .ul {
+	z-index: 15;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+  .photohover .ul .li {
+	  list-style: none;
+	  margin: 10px;
+  }
+
+  .photo{
+	position: absolute;
+	left: 50%;
+	top: 0px;
+	height: 100%;
+	width: 95%;
+	transform: translateX(-50%);
+  }
+.a{
+	color: white;
+}
+.a:hover {
+	color: white;
+}
+.b{
+	color: blue;
+}
+.addClass{
+	opacity: 1;
+}
+.addClassPhoto{
+	opacity: 0.5;
+
+}
+.tableone{
+	background: #F6F6F6;
+	width: 100%;
+	z-index: 80;
+	margin-top: 0%;
+}
+.img{
+	width: 30px;
+	height: 30px;
+	margin: 20px; 
+}
+.imgp{
+	font-size: 17px;
+	padding: 0px; 
+}
+.shadowku{
+	box-shadow: 5px 15px 40px #D5D5D5, -5px 15px 40px #D5D5D5; 
+}
+
+.pageimg{
+	background-image: url('https://yootheme.com/cache/images/section-themes-c321845a.webp'); 
+	background-repeat: no-repeat; 
+	background-size: 1715px 780px;
+	 background-position-y: calc(-41.92px);
+	 height: 90%; 
+	 width: 100%;
+	 margin: 8% 0%;
+	 opacity: 0.8;
+}
+.divhov:hover{
+	box-shadow: 5px 15px 25px #EDEDED, -5px 15px 25px #EDEDED;
+		
+}
+.adiv{
+	color: black;
+}
+.aBot{
+	border-bottom: 1px solid blue;
+	padding: 10px;
+}
+.liku{
+	padding: 15px;
+	font-size: 17px;
+	list-style: none;
+	display: inline-block;
+}
+.ulku{
+	margin-top: 3%;
+}
+.btmbrr{
+	border-bottom: 1px solid blue;
+}
+.btn-group .btn-white:focus{
+	outline: none;
+}
+.aPage{
+	color: #C4C4C4;
+}
+.aPageClik{
+	color: black;
+}
+.tableku td, th{
+	border-bottom: 1px solid #C4C4C4;
+	padding: 20px;
+}
